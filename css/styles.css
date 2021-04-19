@@ -643,8 +643,7 @@ address {
 
 .footer-flex {
   display: flex;
-  width: calc((100% - 30px * 3) / 3);
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .join-container {
@@ -716,6 +715,10 @@ address {
 .email-container .form {
   margin-top: 20px;
   display: flex;
+}
+
+.email-footer {
+  outline: none;
 }
 
 .email-container input {
@@ -913,8 +916,12 @@ address {
 }
 
 .modal .active-button-hero {
-outline: none;
-margin-top: 30px;
+  margin-top: 30px;
+  outline: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 55px;
+  padding-right: 55px;
 }
 
 
